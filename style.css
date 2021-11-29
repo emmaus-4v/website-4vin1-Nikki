@@ -1,8 +1,14 @@
 /* Basislayout */
 
+* {
+    padding : 0px;
+    margin : 0 px;
+    box-sizing: border-box;
+    /*border : 1px black solid;*/
+}
+
 html, body {
     /*height: 100%;*/
-    padding: 0;
     background-color: #EEEEEE;  
     
     color: #303030;
@@ -15,17 +21,18 @@ main {
     width: 900px;
     position: relative;
     border: 2px rgb(0, 0, 0) solid;
-    overflow: ;
 }
 
 
 article {
+    padding-left: 160px;
+    padding-right: 10px;
     text-align: justify;
 }
 
 
 header {
-    color: #5079d3;
+    color: #22396d;
     text-align: center;
 }
 
@@ -36,12 +43,18 @@ footer {
     padding-bottom: 10px;
 }
  
-paragraaf?
- {
-    position: relative;
+p {
+    color: rgb(27, 7, 99);
 
- }
+    /*
+    display: block;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-left: 0;
+    margin-right: 0;*/
+  }
 
+ 
 /* specifieke stijlen */
 
 img.zweefLinks {
@@ -66,6 +79,7 @@ a:hover {
 /* navigatiebalk */
 
 nav {
+    display: block;
     float: left;
 }
 nav ul {
@@ -88,7 +102,7 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: rgb(104, 153, 218);
+    color: rgb(24, 63, 114);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
