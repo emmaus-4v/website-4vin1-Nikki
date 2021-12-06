@@ -9,9 +9,8 @@
 
 html, body {
     /*height: 100%;*/
-    background-color: #000000;  
-    
-    color: #303030;
+    background-color: #000000;
+    color: #ffffff;
     font-family:verdana;
 }
 
@@ -43,13 +42,19 @@ footer {
     padding-bottom: 10px;
 }
  
-h2 {
+h3 {
     color: #aaaaaa;
+}
+
+h3{
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 
 p {
     color: rgb(255, 255, 255);
+    
 
     /*
     display: block;
