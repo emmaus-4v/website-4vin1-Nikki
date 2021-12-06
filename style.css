@@ -2,9 +2,9 @@
 
 * {
     padding : 0px;
-    margin : 0 px;
+    margin : 0px;
     box-sizing: border-box;
-    /*border : 1px black solid;*/
+    /*border : 1px rgb(238, 224, 224) solid;*/
 }
 
 html, body {
@@ -12,7 +12,7 @@ html, body {
     background-color: #000000;  
     
     color: #303030;
-    font: Verdana, Arial, Sans-Serif;
+    font-family:verdana;
 }
 
 
@@ -43,6 +43,11 @@ footer {
     padding-bottom: 10px;
 }
  
+h2 {
+    color: #aaaaaa;
+}
+
+
 p {
     color: rgb(255, 255, 255);
 
