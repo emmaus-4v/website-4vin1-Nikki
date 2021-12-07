@@ -68,12 +68,20 @@ p {
 /* specifieke stijlen */
 
 #ondersteplaatjes {
-    float: right;
+    float: right; 
+    width: 730px;
+    height: 250px; 
 }
 
 img.zweefLinks {
     float: left;
     margin-right: 15px;
+}
+
+img.zweefRechts {
+    float: right;
+    margin-left: 15px;
+    width: 270px;
     
 }
 
