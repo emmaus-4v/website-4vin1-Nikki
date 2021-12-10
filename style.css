@@ -68,7 +68,6 @@ p {
 /* specifieke stijlen */
 
 #ondersteplaatjes {
-    border: 1px solid pink;
     float: right; 
     width: 730px;
 }
@@ -82,7 +81,6 @@ img.zweefRechts {
     float: right;
     margin-left: 15px;
     width: 270px;
-    
 }
 
 .smalltext {
