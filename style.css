@@ -42,11 +42,12 @@ footer {
     padding-bottom: 10px;
 }
  
-h3 {
-    color: #aaaaaa;
+h4 {
+    color:rgb(72, 188, 235);
 }
 
 h3{
+    color: #aaaaaa;
     margin-top: 10px;
     margin-bottom: 0px;
 }
